@@ -1,4 +1,4 @@
-package orientacaoAObjetos.composicao;
+package orientacaoAObjetos.composicao.carro;
 
 public class Carro {
 
