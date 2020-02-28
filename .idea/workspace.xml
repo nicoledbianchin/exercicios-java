@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74d9fa78-67f5-441f-be02-de7bc046c602" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/estruturasDeControle/exercicios/Ex3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +51,7 @@
       <recent name="classe" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex2">
+  <component name="RunManager" selected="Application.Ex3">
     <configuration name="Ex1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="estruturasDeControle.exercicios.Ex1" />
       <module name="java" />
@@ -77,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentos.exercicios.Ex4" />
+    <configuration name="Ex3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estruturasDeControle.exercicios.Ex3" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fundamentos.exercicios.*" />
+          <option name="PATTERN" value="estruturasDeControle.exercicios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,19 +134,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.JUnitCore" />
-      <item itemvalue="Application.Ex4" />
       <item itemvalue="Application.Ex5" />
       <item itemvalue="Application.Ex6" />
       <item itemvalue="Application.Ex1 (1)" />
       <item itemvalue="Application.Ex2" />
+      <item itemvalue="Application.Ex3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex3" />
         <item itemvalue="Application.Ex2" />
         <item itemvalue="Application.Ex1 (1)" />
         <item itemvalue="Application.Ex6" />
         <item itemvalue="Application.Ex5" />
-        <item itemvalue="Application.Ex4" />
       </list>
     </recent_temporary>
   </component>
@@ -207,22 +208,22 @@
       <screen x="57" y="27" width="1309" height="741" />
     </state>
     <state x="519" y="103" width="374" height="587" key="#com.intellij.ide.util.MemberChooser/57.27.1309.741@57.27.1309.741" timestamp="1582917948135" />
-    <state width="1263" height="128" key="GridCell.Tab.0.bottom" timestamp="1582918335817">
+    <state width="1263" height="128" key="GridCell.Tab.0.bottom" timestamp="1582918691866">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="128" key="GridCell.Tab.0.bottom/57.27.1309.741@57.27.1309.741" timestamp="1582918335817" />
-    <state width="1263" height="128" key="GridCell.Tab.0.center" timestamp="1582918335817">
+    <state width="1263" height="128" key="GridCell.Tab.0.bottom/57.27.1309.741@57.27.1309.741" timestamp="1582918691866" />
+    <state width="1263" height="128" key="GridCell.Tab.0.center" timestamp="1582918691865">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="128" key="GridCell.Tab.0.center/57.27.1309.741@57.27.1309.741" timestamp="1582918335817" />
-    <state width="1263" height="128" key="GridCell.Tab.0.left" timestamp="1582918335816">
+    <state width="1263" height="128" key="GridCell.Tab.0.center/57.27.1309.741@57.27.1309.741" timestamp="1582918691865" />
+    <state width="1263" height="128" key="GridCell.Tab.0.left" timestamp="1582918691865">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="128" key="GridCell.Tab.0.left/57.27.1309.741@57.27.1309.741" timestamp="1582918335816" />
-    <state width="1263" height="128" key="GridCell.Tab.0.right" timestamp="1582918335817">
+    <state width="1263" height="128" key="GridCell.Tab.0.left/57.27.1309.741@57.27.1309.741" timestamp="1582918691865" />
+    <state width="1263" height="128" key="GridCell.Tab.0.right" timestamp="1582918691865">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="128" key="GridCell.Tab.0.right/57.27.1309.741@57.27.1309.741" timestamp="1582918335817" />
+    <state width="1263" height="128" key="GridCell.Tab.0.right/57.27.1309.741@57.27.1309.741" timestamp="1582918691865" />
     <state x="145" y="38" key="SettingsEditor" timestamp="1582827615315">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
