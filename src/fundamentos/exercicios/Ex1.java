@@ -3,6 +3,8 @@ package fundamentos.exercicios;
 import java.util.Scanner;
 
 public class Ex1 {
+    //Criar um programa que leia a temperatura em Celsius e converta para Fahrenheit.
+
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 

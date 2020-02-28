@@ -3,6 +3,8 @@ package fundamentos.exercicios;
 import java.util.Scanner;
 
 public class Ex5 {
+    //Criar um programa que leia o valor da base e da altura de um triângulo e calcule a área.
+
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 

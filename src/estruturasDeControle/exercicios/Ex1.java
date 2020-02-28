@@ -3,7 +3,7 @@ package estruturasDeControle.exercicios;
 import java.util.Scanner;
 
 public class Ex1 {
-
+    //Criar um programa que receba um número e verifique se ele está entre 0 e 10 e é par.
 
     public static void main(String[] args) {
 

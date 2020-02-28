@@ -3,6 +3,9 @@ package fundamentos.exercicios;
 import java.util.Scanner;
 
 public class Ex6 {
+    //Criar um programa que resolve equações do segundo grau (ax2 + bx + c = 0) utilizando
+    // a fórmula de Bhaskara.
+
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 
