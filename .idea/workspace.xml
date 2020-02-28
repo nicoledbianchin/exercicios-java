@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74d9fa78-67f5-441f-be02-de7bc046c602" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/estruturasDeControle/exercicios/Ex7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,20 +50,7 @@
       <recent name="classe" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex7">
-    <configuration name="Ex3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estruturasDeControle.exercicios.Ex3" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="estruturasDeControle.exercicios.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Ex8">
     <configuration name="Ex4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="estruturasDeControle.exercicios.Ex4" />
       <module name="java" />
@@ -117,6 +103,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estruturasDeControle.exercicios.Ex8" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="estruturasDeControle.exercicios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JUnitCore" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="13" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -134,19 +133,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.JUnitCore" />
-      <item itemvalue="Application.Ex3" />
       <item itemvalue="Application.Ex4" />
       <item itemvalue="Application.Ex5" />
       <item itemvalue="Application.Ex6" />
       <item itemvalue="Application.Ex7" />
+      <item itemvalue="Application.Ex8" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex8" />
         <item itemvalue="Application.Ex7" />
         <item itemvalue="Application.Ex6" />
         <item itemvalue="Application.Ex5" />
         <item itemvalue="Application.Ex4" />
-        <item itemvalue="Application.Ex3" />
       </list>
     </recent_temporary>
   </component>
@@ -208,22 +207,22 @@
       <screen x="57" y="27" width="1309" height="741" />
     </state>
     <state x="519" y="103" width="374" height="587" key="#com.intellij.ide.util.MemberChooser/57.27.1309.741@57.27.1309.741" timestamp="1582917948135" />
-    <state width="1263" height="232" key="GridCell.Tab.0.bottom" timestamp="1582922415092">
+    <state width="1263" height="232" key="GridCell.Tab.0.bottom" timestamp="1582922716764">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="232" key="GridCell.Tab.0.bottom/57.27.1309.741@57.27.1309.741" timestamp="1582922415092" />
-    <state width="1263" height="232" key="GridCell.Tab.0.center" timestamp="1582922415087">
+    <state width="1263" height="232" key="GridCell.Tab.0.bottom/57.27.1309.741@57.27.1309.741" timestamp="1582922716764" />
+    <state width="1263" height="232" key="GridCell.Tab.0.center" timestamp="1582922716760">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="232" key="GridCell.Tab.0.center/57.27.1309.741@57.27.1309.741" timestamp="1582922415087" />
-    <state width="1263" height="232" key="GridCell.Tab.0.left" timestamp="1582922415084">
+    <state width="1263" height="232" key="GridCell.Tab.0.center/57.27.1309.741@57.27.1309.741" timestamp="1582922716760" />
+    <state width="1263" height="232" key="GridCell.Tab.0.left" timestamp="1582922716755">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="232" key="GridCell.Tab.0.left/57.27.1309.741@57.27.1309.741" timestamp="1582922415084" />
-    <state width="1263" height="232" key="GridCell.Tab.0.right" timestamp="1582922415090">
+    <state width="1263" height="232" key="GridCell.Tab.0.left/57.27.1309.741@57.27.1309.741" timestamp="1582922716755" />
+    <state width="1263" height="232" key="GridCell.Tab.0.right" timestamp="1582922716763">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="232" key="GridCell.Tab.0.right/57.27.1309.741@57.27.1309.741" timestamp="1582922415090" />
+    <state width="1263" height="232" key="GridCell.Tab.0.right/57.27.1309.741@57.27.1309.741" timestamp="1582922716763" />
     <state x="145" y="38" key="SettingsEditor" timestamp="1582827615315">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
