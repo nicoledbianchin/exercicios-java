@@ -50,7 +50,7 @@
       <recent name="classe" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex4">
+  <component name="RunManager" selected="Application.Ex5">
     <configuration name="Ex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fundamentos.exercicios.Ex1" />
       <module name="java" />
@@ -90,6 +90,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentos.exercicios.Ex5" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fundamentos.exercicios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JUnitCore" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="13" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -118,34 +131,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pilha" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.Pilha" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.JUnitCore" />
       <item itemvalue="Application.Mapa" />
-      <item itemvalue="Application.Pilha" />
       <item itemvalue="Application.Ex1" />
       <item itemvalue="Application.Ex3" />
       <item itemvalue="Application.Ex4" />
+      <item itemvalue="Application.Ex5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex5" />
         <item itemvalue="Application.Ex4" />
         <item itemvalue="Application.Ex3" />
         <item itemvalue="Application.Ex1" />
         <item itemvalue="Application.Mapa" />
-        <item itemvalue="Application.Pilha" />
       </list>
     </recent_temporary>
   </component>
@@ -203,22 +203,22 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1263" height="152" key="GridCell.Tab.0.bottom" timestamp="1582915097275">
+    <state width="1263" height="152" key="GridCell.Tab.0.bottom" timestamp="1582915156560">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="152" key="GridCell.Tab.0.bottom/57.27.1309.741@57.27.1309.741" timestamp="1582915097275" />
-    <state width="1263" height="152" key="GridCell.Tab.0.center" timestamp="1582915097274">
+    <state width="1263" height="152" key="GridCell.Tab.0.bottom/57.27.1309.741@57.27.1309.741" timestamp="1582915156560" />
+    <state width="1263" height="152" key="GridCell.Tab.0.center" timestamp="1582915156554">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="152" key="GridCell.Tab.0.center/57.27.1309.741@57.27.1309.741" timestamp="1582915097274" />
-    <state width="1263" height="152" key="GridCell.Tab.0.left" timestamp="1582915097274">
+    <state width="1263" height="152" key="GridCell.Tab.0.center/57.27.1309.741@57.27.1309.741" timestamp="1582915156554" />
+    <state width="1263" height="152" key="GridCell.Tab.0.left" timestamp="1582915156552">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="152" key="GridCell.Tab.0.left/57.27.1309.741@57.27.1309.741" timestamp="1582915097274" />
-    <state width="1263" height="152" key="GridCell.Tab.0.right" timestamp="1582915097275">
+    <state width="1263" height="152" key="GridCell.Tab.0.left/57.27.1309.741@57.27.1309.741" timestamp="1582915156552" />
+    <state width="1263" height="152" key="GridCell.Tab.0.right" timestamp="1582915156557">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="152" key="GridCell.Tab.0.right/57.27.1309.741@57.27.1309.741" timestamp="1582915097275" />
+    <state width="1263" height="152" key="GridCell.Tab.0.right/57.27.1309.741@57.27.1309.741" timestamp="1582915156557" />
     <state x="145" y="38" key="SettingsEditor" timestamp="1582827615315">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
