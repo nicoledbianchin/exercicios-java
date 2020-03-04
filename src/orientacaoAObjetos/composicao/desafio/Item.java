@@ -1,7 +1,6 @@
 package orientacaoAObjetos.composicao.desafio;
 
 public class Item {
-    Compra compra;
     Produto produto;
     int quantidade;
 

@@ -3,7 +3,6 @@ package orientacaoAObjetos.composicao.desafio;
 import java.util.ArrayList;
 
 public class Compra {
-    Cliente cliente;
     ArrayList<Item> itens = new ArrayList<>();
     double valorCompra;
 
