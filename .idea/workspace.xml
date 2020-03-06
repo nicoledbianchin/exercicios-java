@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74d9fa78-67f5-441f-be02-de7bc046c602" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lista2/Ex2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lista2/Ex3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,13 +55,26 @@
       <recent name="classe" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex6">
+  <component name="RunManager" selected="Application.Ex3 (1)">
     <configuration name="Ex2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lista1.Ex2" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lista1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista2.Ex3" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lista2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,34 +136,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mapa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.Mapa" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.JUnitCore" />
-      <item itemvalue="Application.Mapa" />
       <item itemvalue="Application.Ex2" />
       <item itemvalue="Application.Ex3" />
       <item itemvalue="Application.Ex4" />
       <item itemvalue="Application.Ex6" />
+      <item itemvalue="Application.Ex3 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex3 (1)" />
         <item itemvalue="Application.Ex6" />
         <item itemvalue="Application.Ex4" />
         <item itemvalue="Application.Ex3" />
         <item itemvalue="Application.Ex2" />
-        <item itemvalue="Application.Mapa" />
       </list>
     </recent_temporary>
   </component>
@@ -223,26 +223,26 @@
       <screen x="57" y="27" width="1309" height="741" />
     </state>
     <state x="444" y="145" width="524" height="502" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/57.27.1309.741@57.27.1309.741" timestamp="1583168774128" />
-    <state width="1263" height="232" key="GridCell.Tab.0.bottom" timestamp="1583500458091">
+    <state width="1263" height="232" key="GridCell.Tab.0.bottom" timestamp="1583506057752">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
     <state width="788" height="168" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1583092669289" />
-    <state width="1263" height="232" key="GridCell.Tab.0.bottom/57.27.1309.741@57.27.1309.741" timestamp="1583500458091" />
-    <state width="1263" height="232" key="GridCell.Tab.0.center" timestamp="1583500458086">
+    <state width="1263" height="232" key="GridCell.Tab.0.bottom/57.27.1309.741@57.27.1309.741" timestamp="1583506057752" />
+    <state width="1263" height="232" key="GridCell.Tab.0.center" timestamp="1583506057752">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
     <state width="788" height="168" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1583092669289" />
-    <state width="1263" height="232" key="GridCell.Tab.0.center/57.27.1309.741@57.27.1309.741" timestamp="1583500458086" />
-    <state width="1263" height="232" key="GridCell.Tab.0.left" timestamp="1583500458085">
+    <state width="1263" height="232" key="GridCell.Tab.0.center/57.27.1309.741@57.27.1309.741" timestamp="1583506057752" />
+    <state width="1263" height="232" key="GridCell.Tab.0.left" timestamp="1583506057752">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
     <state width="788" height="168" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1583092669285" />
-    <state width="1263" height="232" key="GridCell.Tab.0.left/57.27.1309.741@57.27.1309.741" timestamp="1583500458085" />
-    <state width="1263" height="232" key="GridCell.Tab.0.right" timestamp="1583500458089">
+    <state width="1263" height="232" key="GridCell.Tab.0.left/57.27.1309.741@57.27.1309.741" timestamp="1583506057752" />
+    <state width="1263" height="232" key="GridCell.Tab.0.right" timestamp="1583506057752">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
     <state width="788" height="168" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1583092669289" />
-    <state width="1263" height="232" key="GridCell.Tab.0.right/57.27.1309.741@57.27.1309.741" timestamp="1583500458089" />
+    <state width="1263" height="232" key="GridCell.Tab.0.right/57.27.1309.741@57.27.1309.741" timestamp="1583506057752" />
     <state width="1263" height="197" key="GridCell.Tab.1.bottom" timestamp="1583171878085">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
