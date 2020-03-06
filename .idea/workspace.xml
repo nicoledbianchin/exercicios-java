@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74d9fa78-67f5-441f-be02-de7bc046c602" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lista2/Ex1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/orientacaoAObjetos/composicao/desafio/Compra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/orientacaoAObjetos/composicao/desafio/Compra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/orientacaoAObjetos/composicao/desafio/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/orientacaoAObjetos/composicao/desafio/Item.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,17 +47,21 @@
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lista1" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="classe" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Mapa">
-    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="orientacaoAObjetos.composicao.desafio.App" />
+  <component name="RunManager" selected="Application.Ex6">
+    <configuration name="Ex2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista1.Ex2" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="orientacaoAObjetos.composicao.desafio.*" />
+          <option name="PATTERN" value="lista1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="orientacaoAObjetos.composicao.curso.App" />
+    <configuration name="Ex3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista1.Ex3" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="orientacaoAObjetos.composicao.curso.*" />
+          <option name="PATTERN" value="lista1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estruturasDeControle.exercicios.Ex8" />
+    <configuration name="Ex4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista1.Ex4" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="estruturasDeControle.exercicios.*" />
+          <option name="PATTERN" value="lista1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estruturasDeControle.exercicios.Ex9" />
+    <configuration name="Ex6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista1.Ex6" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="estruturasDeControle.exercicios.*" />
+          <option name="PATTERN" value="lista1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,19 +138,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.JUnitCore" />
-      <item itemvalue="Application.Ex8" />
-      <item itemvalue="Application.Ex9" />
-      <item itemvalue="Application.App" />
-      <item itemvalue="Application.App (1)" />
       <item itemvalue="Application.Mapa" />
+      <item itemvalue="Application.Ex2" />
+      <item itemvalue="Application.Ex3" />
+      <item itemvalue="Application.Ex4" />
+      <item itemvalue="Application.Ex6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex6" />
+        <item itemvalue="Application.Ex4" />
+        <item itemvalue="Application.Ex3" />
+        <item itemvalue="Application.Ex2" />
         <item itemvalue="Application.Mapa" />
-        <item itemvalue="Application.App (1)" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.Ex9" />
-        <item itemvalue="Application.Ex8" />
       </list>
     </recent_temporary>
   </component>
@@ -220,26 +223,26 @@
       <screen x="57" y="27" width="1309" height="741" />
     </state>
     <state x="444" y="145" width="524" height="502" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/57.27.1309.741@57.27.1309.741" timestamp="1583168774128" />
-    <state width="1263" height="232" key="GridCell.Tab.0.bottom" timestamp="1583257351072">
+    <state width="1263" height="232" key="GridCell.Tab.0.bottom" timestamp="1583500458091">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
     <state width="788" height="168" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1583092669289" />
-    <state width="1263" height="232" key="GridCell.Tab.0.bottom/57.27.1309.741@57.27.1309.741" timestamp="1583257351072" />
-    <state width="1263" height="232" key="GridCell.Tab.0.center" timestamp="1583257351071">
+    <state width="1263" height="232" key="GridCell.Tab.0.bottom/57.27.1309.741@57.27.1309.741" timestamp="1583500458091" />
+    <state width="1263" height="232" key="GridCell.Tab.0.center" timestamp="1583500458086">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
     <state width="788" height="168" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1583092669289" />
-    <state width="1263" height="232" key="GridCell.Tab.0.center/57.27.1309.741@57.27.1309.741" timestamp="1583257351071" />
-    <state width="1263" height="232" key="GridCell.Tab.0.left" timestamp="1583257351070">
+    <state width="1263" height="232" key="GridCell.Tab.0.center/57.27.1309.741@57.27.1309.741" timestamp="1583500458086" />
+    <state width="1263" height="232" key="GridCell.Tab.0.left" timestamp="1583500458085">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
     <state width="788" height="168" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1583092669285" />
-    <state width="1263" height="232" key="GridCell.Tab.0.left/57.27.1309.741@57.27.1309.741" timestamp="1583257351070" />
-    <state width="1263" height="232" key="GridCell.Tab.0.right" timestamp="1583257351071">
+    <state width="1263" height="232" key="GridCell.Tab.0.left/57.27.1309.741@57.27.1309.741" timestamp="1583500458085" />
+    <state width="1263" height="232" key="GridCell.Tab.0.right" timestamp="1583500458089">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
     <state width="788" height="168" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1583092669289" />
-    <state width="1263" height="232" key="GridCell.Tab.0.right/57.27.1309.741@57.27.1309.741" timestamp="1583257351071" />
+    <state width="1263" height="232" key="GridCell.Tab.0.right/57.27.1309.741@57.27.1309.741" timestamp="1583500458089" />
     <state width="1263" height="197" key="GridCell.Tab.1.bottom" timestamp="1583171878085">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
