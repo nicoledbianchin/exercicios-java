@@ -1,5 +1,4 @@
-2. Fazer um programa que imprima a média aritmética dos números 8,9 e 7. A média dos
-números 4, 5 e 6. A soma das duas médias. A média das médias.
+
 3. Informar um saldo e imprimir o saldo com reajuste de 1%.
 4. Escrever um algoritmo que lê:
 - a porcentagem do IPI a ser acrescido no valor das peças
