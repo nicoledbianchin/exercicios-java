@@ -5,20 +5,22 @@ Uma aplicação é composta por classes que se relacionam e dependem entre si, p
 
 * toStRing() - retorna o objeto em java em uma string.
 
-## Encapsulamento: 
+## Pilares da Orientação a Objetos
+
+### Encapsulamento: 
 Analizar o que faz sentido uma classe conhecer da outra, o que precisa estar público (visível para todo mundo) e do que precisa ser privado. Por exemplo, no carro temos acesso à marcha, ao volante (públicos), mas não ao motor nem ao funcionamento interno do carro (privado). Se tudo estiver sempre visível, a comunicação entre classes e métodos fica mais complexa. Com o encapsulamento a ideia é que o uso fique da forma mais simplificada possível.
 
-### Níveis de encapsulamento:
+#### Níveis de encapsulamento:
 - public: nível menos restrito
 - protected: visível no próprio pacote, na própria classe, e transmitido por herança para um outro pacote.
 - package: default, visível dentro do mesmo pacote
 - private: nível mais restrito
 
-## Herança
+### Herança
 Sempre será menos flexível que a composição. É usada a palavra `extends`.
 É relação "... é um(a) ...", diferente de composição, que é a relação "... tem um(a) ...".
 
-### Exemplos:
+#### Exemplos:
 - Civic é um carro. Carro tem um motor.
 - Maçã é uma fruta. Casa tem uma cozinha.
 
@@ -35,15 +37,18 @@ Podemos sobrescrever métodos específicos. Podemos inclusive chamar a implement
 
 * decorator é um padrão de projeto que ajuda a substituir composição por herança.
 
-## Polimorfismo
+### Polimorfismo
 
-### Estático 
+#### Estático 
 É a sobrecarga. Um método deve ter uma assinatura única, mas pode ter nome repetido, ou seja, são métodos com o mesmo nome mas com parâmetros diferentes. É como ter o mesmo método funcionando de multiplas formas. 
 É escrito de forma estática no código.
 
-### Dinâmico
+#### Dinâmico
 Podemos instanciar um tipo específico e atribuir a um tipo mais genérico, como por exemplo `Carro carro = new Civic()`. O polimorfismo acontece aqui porque a partir do momento que atribuimos a variável `c` que é do tipo `Carro` a um `Civic`, podemos usar a mesma variável `c` a uma `Ferari`, por exemplo (outro tipo mais específico, como o `Civic`).  
 
 ![](../../imagens/polimorfismo.png)
 
 > Polimorfismo.
+
+### Abstração
+Simplificar conceitos do mundo real para o software. Nem todas as classes no software terão um correspondente no mundo real (as vezes construímos conceitos para a organização de software ou pequenas diferenças específicas nos objetos), assim como em tudo no mundo real estará no software. 
