@@ -1,15 +1,36 @@
 # Orientação a objetos
 
 ## Composição:
-Uma aplicaçao é composta por classes que se relacionam e dependem entre si, para o funcionamento do produto final. A relação deve ser bem pensada para não termos um serviço muito ligado e difícil de fazer mudançãs e refatoração.
+Uma aplicação é composta por classes que se relacionam e dependem entre si, para o funcionamento do produto final. A relação deve ser bem pensada para não termos um serviço muito ligado e difícil de fazer mudançãs e refatoração.
 
-*   toStRing() - retorna o objeto em java em uma string.
+* toStRing() - retorna o objeto em java em uma string.
 
 ## Encapsulamento: 
-Analizar o que faz sentido uma classe conhecer da outra, o que precisa estar público (visível para todo mundo) e do que precisa ser privado. Por exemplo, no carro temos acesso à marcha, ao volante (publicos), mas não ao motor nem ao funcionamento interno do carro (privado). Se tudo estiver sempre visível, a comunicação entre classes e métodos fica mais complexa. Com o encapsulamento a ideia é que o uso fique da forma mais simplificada possível.
+Analizar o que faz sentido uma classe conhecer da outra, o que precisa estar público (visível para todo mundo) e do que precisa ser privado. Por exemplo, no carro temos acesso à marcha, ao volante (públicos), mas não ao motor nem ao funcionamento interno do carro (privado). Se tudo estiver sempre visível, a comunicação entre classes e métodos fica mais complexa. Com o encapsulamento a ideia é que o uso fique da forma mais simplificada possível.
 
 ### Níveis de encapsulamento:
 - public: nível menos restrito
 - protected: visível no próprio pacote, na própria classe, e transmitido por herança para um outro pacote.
 - package: default, visível dentro do mesmo pacote
 - private: nível mais restrito
+
+## Herança
+Sempre será menos flexível que a composição. É usada a palavra `extends`.
+É relação "... é um(a) ...", diferente de composição, que é a relação "... tem um(a) ...".
+
+### Exemplos:
+- Civic é um carro. Carro tem um motor.
+- Maçã é uma fruta. Casa tem uma cozinha.
+
+A classe filha (subclasse, mais específica) herda algumas características e comportamentos pré-definidos na classe pai (super classe, mais genérica).
+Nem toda hierarquia gera herança, por exemplo, hierarquia militar.
+
+- Hierarquia que gera herança: cachorro é um mamífero que é um animal.
+- Hierarquia que não gera herança: capitão, tenente, sargento, cabo, soldado (um tenente não é um capitão).
+
+Uma classe só pode herdar uma classe (pode ter apenas uma super classe), mas uma classe pode ser herdada por mais de uma classe (pode ter várias subclasses).
+Podemos sobrescrever métodos específicos. Podemos inclusive chamar a implementação original e acrescentar coisas. Caso não exista nada sobrescrito, o método se comportará igual como na classe pai.
+
+* decorator é um padrão de projeto que ajuda a substituir composição por herança.
+
+## Polimorfismo
