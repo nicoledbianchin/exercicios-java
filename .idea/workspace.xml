@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74d9fa78-67f5-441f-be02-de7bc046c602" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/composicao/carro/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/composicao/carro/Carro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/composicao/carro/CarroTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/composicao/carro/CarroTeste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/composicao/carro/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/composicao/carro/Motor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/orientação-a-objetos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/orientação-a-objetos.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/orientação-a-objetos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/orientação-a-objetos.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +198,7 @@
       <workItem from="1586973299774" duration="505000" />
       <workItem from="1586981997103" duration="22000" />
       <workItem from="1588011551353" duration="405000" />
-      <workItem from="1591805205430" duration="301000" />
+      <workItem from="1591805205430" duration="640000" />
     </task>
     <servers />
   </component>
