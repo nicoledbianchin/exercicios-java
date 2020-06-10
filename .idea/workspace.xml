@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74d9fa78-67f5-441f-be02-de7bc046c602" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lista2/Ex5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/composicao/carro/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/composicao/carro/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/composicao/carro/CarroTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/composicao/carro/CarroTeste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/composicao/carro/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/composicao/carro/Motor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/orientação-a-objetos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/orientação-a-objetos.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +28,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -33,6 +35,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -44,7 +47,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -55,13 +58,15 @@
       <recent name="classe" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex5">
-    <configuration name="Ex3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista2.Ex3" />
+  <component name="RunManager" selected="Application.CarroTeste">
+    <configuration name="CarroTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="curso.orientacaoAObjetos.composicao.carro.CarroTeste" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lista2.*" />
+          <option name="PATTERN" value="curso.orientacaoAObjetos.composicao.carro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista1.Ex3" />
+    <configuration name="Ex3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista2.Ex3" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lista1.*" />
+          <option name="PATTERN" value="lista2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,19 +143,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.JUnitCore" />
-      <item itemvalue="Application.Ex3" />
       <item itemvalue="Application.Ex4" />
       <item itemvalue="Application.Ex6" />
       <item itemvalue="Application.Ex3 (1)" />
       <item itemvalue="Application.Ex5" />
+      <item itemvalue="Application.CarroTeste" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CarroTeste" />
         <item itemvalue="Application.Ex5" />
         <item itemvalue="Application.Ex3 (1)" />
         <item itemvalue="Application.Ex6" />
         <item itemvalue="Application.Ex4" />
-        <item itemvalue="Application.Ex3" />
       </list>
     </recent_temporary>
   </component>
@@ -191,30 +196,40 @@
       <workItem from="1583152969631" duration="5262000" />
       <workItem from="1583243839527" duration="1308000" />
       <workItem from="1583342518612" duration="320000" />
+      <workItem from="1586973024494" duration="116000" />
+      <workItem from="1586973154156" duration="87000" />
+      <workItem from="1586973255116" duration="26000" />
+      <workItem from="1586973299774" duration="505000" />
+      <workItem from="1586981997103" duration="22000" />
+      <workItem from="1588011551353" duration="405000" />
+      <workItem from="1591805205430" duration="301000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="519" y="103" width="374" height="587" key="#com.intellij.ide.util.MemberChooser" timestamp="1582917948135">
-      <screen x="57" y="27" width="1309" height="741" />
+    <state x="721" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586982016092">
+      <screen x="0" y="0" width="1792" height="1041" />
     </state>
-    <state x="519" y="103" width="374" height="587" key="#com.intellij.ide.util.MemberChooser/57.27.1309.741@57.27.1309.741" timestamp="1582917948135" />
+    <state x="721" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1041@0.0.1792.1041" timestamp="1586982016092" />
+    <state x="632" y="107" width="374" height="587" key="#com.intellij.ide.util.MemberChooser" timestamp="1586973638221">
+      <screen x="0" y="0" width="1792" height="1041" />
+    </state>
+    <state x="632" y="107" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1041@0.0.1792.1041" timestamp="1586973638221" />
     <state x="455" y="27" width="503" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583168914340">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
@@ -226,22 +241,18 @@
     <state width="1263" height="411" key="GridCell.Tab.0.bottom" timestamp="1583512804025">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
-    <state width="788" height="168" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1583092669289" />
     <state width="1263" height="411" key="GridCell.Tab.0.bottom/57.27.1309.741@57.27.1309.741" timestamp="1583512804025" />
     <state width="1263" height="411" key="GridCell.Tab.0.center" timestamp="1583512804021">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
-    <state width="788" height="168" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1583092669289" />
     <state width="1263" height="411" key="GridCell.Tab.0.center/57.27.1309.741@57.27.1309.741" timestamp="1583512804021" />
     <state width="1263" height="411" key="GridCell.Tab.0.left" timestamp="1583512804018">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
-    <state width="788" height="168" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1583092669285" />
     <state width="1263" height="411" key="GridCell.Tab.0.left/57.27.1309.741@57.27.1309.741" timestamp="1583512804018" />
     <state width="1263" height="411" key="GridCell.Tab.0.right" timestamp="1583512804023">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
-    <state width="788" height="168" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1583092669289" />
     <state width="1263" height="411" key="GridCell.Tab.0.right/57.27.1309.741@57.27.1309.741" timestamp="1583512804023" />
     <state width="1263" height="197" key="GridCell.Tab.1.bottom" timestamp="1583512740953">
       <screen x="57" y="27" width="1309" height="741" />
@@ -259,26 +270,23 @@
       <screen x="57" y="27" width="1309" height="741" />
     </state>
     <state width="1263" height="197" key="GridCell.Tab.1.right/57.27.1309.741@57.27.1309.741" timestamp="1583512740953" />
-    <state x="145" y="38" key="SettingsEditor" timestamp="1582827615315">
-      <screen x="57" y="27" width="1309" height="741" />
+    <state x="511" y="180" key="NewModule_or_Project.wizard" timestamp="1588012540752">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="145" y="38" key="SettingsEditor/57.27.1309.741@57.27.1309.741" timestamp="1582827615315" />
-    <state x="366" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1583152993047">
-      <screen x="57" y="27" width="1309" height="741" />
+    <state x="511" y="180" key="NewModule_or_Project.wizard/0.0.1792.1120/192.-1080.1920.1080@0.0.1792.1120" timestamp="1588012540752" />
+    <state x="120" y="16" key="SettingsEditor" timestamp="1588011569568">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="366" y="224" key="com.intellij.ide.util.TipDialog/57.27.1309.741@57.27.1309.741" timestamp="1583152993047" />
-    <state x="749" y="296" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583091789915">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="749" y="296" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1583091789915" />
+    <state x="120" y="15" key="SettingsEditor/0.0.1792.1041@0.0.1792.1041" timestamp="1586973308694" />
+    <state x="120" y="16" key="SettingsEditor/0.0.1792.1120/192.-1080.1920.1080@0.0.1792.1120" timestamp="1588011569568" />
     <state x="57" y="27" width="1299" height="741" key="new project wizard" timestamp="1583171875276">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
     <state x="57" y="27" width="1299" height="741" key="new project wizard/57.27.1309.741@57.27.1309.741" timestamp="1583171875276" />
-    <state x="331" y="64" width="702" height="703" key="search.everywhere.popup" timestamp="1583092027581">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="434" y="93" width="921" height="1026" key="search.everywhere.popup" timestamp="1591805265912">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="331" y="64" width="702" height="703" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1583092027581" />
-    <state x="374" y="89" width="672" height="678" key="search.everywhere.popup/57.27.1309.741@57.27.1309.741" timestamp="1582921672267" />
+    <state x="434" y="93" width="921" height="1026" key="search.everywhere.popup/0.0.1792.1120/192.-1080.1920.1080@0.0.1792.1120" timestamp="1588011895317" />
+    <state x="434" y="93" width="921" height="1026" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1591805265912" />
   </component>
 </project>
