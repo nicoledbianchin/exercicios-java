@@ -1,34 +1,40 @@
+
 package curso.orientacaoAObjetos.composicao.carro;
 
 public class Carro {
 
-    Motor motor;
+    private Motor motor;
 
     Carro() {
         this.motor = new Motor();
     }
 
     void acelerar() {
-        if (motor.fatorInjecao < 2.6) {
-            motor.fatorInjecao += 0.4;
+        if (motor.getFatorInjecao() < 2.6) {
+            motor.setFatorInjecao(motor.getFatorInjecao() + 0.4);
         }
     }
 
     void frear() {
-        if (motor.fatorInjecao > 0.5) {
-            motor.fatorInjecao -= 0.4;
+        if (motor.getFatorInjecao() > 0.5) {
+            motor.setFatorInjecao(motor.getFatorInjecao() - 0.4);
         }
     }
 
     void ligar() {
-        motor.ligado = true;
+        motor.setLigado(true);
     }
 
     void desligar() {
-        motor.ligado = false;
+        motor.setLigado(false);
     }
 
     boolean estaLigado() {
-        return motor.ligado;
+        return motor.isLigado();
+    }
+
+    public Motor getMotor() {
+        return motor;
     }
 }
+

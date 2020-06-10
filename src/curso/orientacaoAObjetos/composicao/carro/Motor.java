@@ -1,11 +1,12 @@
+
 package curso.orientacaoAObjetos.composicao.carro;
 
 public class Motor {
 
-    boolean ligado = false;
-    double fatorInjecao = 1;
+    private boolean ligado = false;
+    private double fatorInjecao = 1;
 
-    int giros() {
+    public int giros() {
         if(!ligado){
             return 0;
         }
@@ -13,4 +14,22 @@ public class Motor {
             return (int) fatorInjecao * 3000;
         }
     }
+
+    public boolean isLigado() {
+        return ligado;
+    }
+
+    public void setLigado(boolean ligado) {
+        this.ligado = ligado;
+    }
+
+    public double getFatorInjecao() {
+        return fatorInjecao;
+    }
+
+    public void setFatorInjecao(double fatorInjecao) {
+        this.fatorInjecao = fatorInjecao;
+    }
+
 }
+

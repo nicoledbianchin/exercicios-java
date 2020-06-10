@@ -9,21 +9,18 @@ public class CarroTeste {
         carro.ligar();
         System.out.println(carro.estaLigado());
 
-        System.out.println(carro.motor.giros());
+        System.out.println(carro.getMotor().giros());
 
         carro.acelerar();
         carro.acelerar();
         carro.acelerar();
         carro.acelerar();
-        System.out.println(carro.motor.giros());
+        System.out.println(carro.getMotor().giros());
 
         carro.frear();
         carro.frear();
         carro.frear();
         carro.frear();
-        System.out.println(carro.motor.giros());
-
-        //faltou encapsulamento
-        carro.motor.fatorInjecao = 5;
+        System.out.println(carro.getMotor().giros());
     }
 }
