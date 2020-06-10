@@ -22,6 +22,8 @@ Sempre será menos flexível que a composição. É usada a palavra `extends`.
 - Civic é um carro. Carro tem um motor.
 - Maçã é uma fruta. Casa tem uma cozinha.
 
+- Importante: todo Civic é um carro, mas nem todo carro é um Civic. 
+
 A classe filha (subclasse, mais específica) herda algumas características e comportamentos pré-definidos na classe pai (super classe, mais genérica).
 Nem toda hierarquia gera herança, por exemplo, hierarquia militar.
 
@@ -34,3 +36,14 @@ Podemos sobrescrever métodos específicos. Podemos inclusive chamar a implement
 * decorator é um padrão de projeto que ajuda a substituir composição por herança.
 
 ## Polimorfismo
+
+### Estático 
+É a sobrecarga. Um método deve ter uma assinatura única, mas pode ter nome repetido, ou seja, são métodos com o mesmo nome mas com parâmetros diferentes. É como ter o mesmo método funcionando de multiplas formas. 
+É escrito de forma estática no código.
+
+### Dinâmico
+Podemos instanciar um tipo específico e atribuir a um tipo mais genérico, como por exemplo `Carro carro = new Civic()`. O polimorfismo acontece aqui porque a partir do momento que atribuimos a variável `c` que é do tipo `Carro` a um `Civic`, podemos usar a mesma variável `c` a uma `Ferari`, por exemplo (outro tipo mais específico, como o `Civic`).  
+
+![](../../imagens/polimorfismo.png)
+
+> Polimorfismo.
