@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="74d9fa78-67f5-441f-be02-de7bc046c602" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/orientação-a-objetos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/orientação-a-objetos.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/herenca/Direcao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/herenca/Jogo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +34,7 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -54,7 +75,7 @@
       <recent name="classe" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CarroTeste">
+  <component name="RunManager" selected="Application.Jogo">
     <configuration name="CarroTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -76,19 +97,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lista2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista1.Ex4" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lista1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,21 +145,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Jogo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="curso.orientacaoAObjetos.herenca.Jogo" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="curso.orientacaoAObjetos.herenca.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.JUnitCore" />
-      <item itemvalue="Application.Ex4" />
       <item itemvalue="Application.Ex6" />
       <item itemvalue="Application.Ex3 (1)" />
       <item itemvalue="Application.Ex5" />
       <item itemvalue="Application.CarroTeste" />
+      <item itemvalue="Application.Jogo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Jogo" />
         <item itemvalue="Application.CarroTeste" />
         <item itemvalue="Application.Ex5" />
         <item itemvalue="Application.Ex3 (1)" />
         <item itemvalue="Application.Ex6" />
-        <item itemvalue="Application.Ex4" />
       </list>
     </recent_temporary>
   </component>
@@ -199,6 +220,7 @@
       <workItem from="1586981997103" duration="22000" />
       <workItem from="1588011551353" duration="405000" />
       <workItem from="1591805205430" duration="640000" />
+      <workItem from="1591970956108" duration="840000" />
     </task>
     <servers />
   </component>
@@ -234,21 +256,25 @@
       <screen x="57" y="27" width="1309" height="741" />
     </state>
     <state x="444" y="145" width="524" height="502" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/57.27.1309.741@57.27.1309.741" timestamp="1583168774128" />
-    <state width="1263" height="411" key="GridCell.Tab.0.bottom" timestamp="1583512804025">
-      <screen x="57" y="27" width="1309" height="741" />
+    <state width="1016" height="313" key="GridCell.Tab.0.bottom" timestamp="1591970886941">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state width="1016" height="313" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1591970886941" />
     <state width="1263" height="411" key="GridCell.Tab.0.bottom/57.27.1309.741@57.27.1309.741" timestamp="1583512804025" />
-    <state width="1263" height="411" key="GridCell.Tab.0.center" timestamp="1583512804021">
-      <screen x="57" y="27" width="1309" height="741" />
+    <state width="1016" height="313" key="GridCell.Tab.0.center" timestamp="1591970886941">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state width="1016" height="313" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1591970886941" />
     <state width="1263" height="411" key="GridCell.Tab.0.center/57.27.1309.741@57.27.1309.741" timestamp="1583512804021" />
-    <state width="1263" height="411" key="GridCell.Tab.0.left" timestamp="1583512804018">
-      <screen x="57" y="27" width="1309" height="741" />
+    <state width="1016" height="313" key="GridCell.Tab.0.left" timestamp="1591970886940">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state width="1016" height="313" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1591970886940" />
     <state width="1263" height="411" key="GridCell.Tab.0.left/57.27.1309.741@57.27.1309.741" timestamp="1583512804018" />
-    <state width="1263" height="411" key="GridCell.Tab.0.right" timestamp="1583512804023">
-      <screen x="57" y="27" width="1309" height="741" />
+    <state width="1016" height="313" key="GridCell.Tab.0.right" timestamp="1591970886941">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state width="1016" height="313" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1591970886941" />
     <state width="1263" height="411" key="GridCell.Tab.0.right/57.27.1309.741@57.27.1309.741" timestamp="1583512804023" />
     <state width="1263" height="197" key="GridCell.Tab.1.bottom" timestamp="1583512740953">
       <screen x="57" y="27" width="1309" height="741" />
@@ -270,19 +296,20 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="511" y="180" key="NewModule_or_Project.wizard/0.0.1792.1120/192.-1080.1920.1080@0.0.1792.1120" timestamp="1588012540752" />
-    <state x="120" y="16" key="SettingsEditor" timestamp="1588011569568">
+    <state x="120" y="16" key="SettingsEditor" timestamp="1591970869614">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="120" y="15" key="SettingsEditor/0.0.1792.1041@0.0.1792.1041" timestamp="1586973308694" />
     <state x="120" y="16" key="SettingsEditor/0.0.1792.1120/192.-1080.1920.1080@0.0.1792.1120" timestamp="1588011569568" />
+    <state x="120" y="16" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1591970869614" />
     <state x="57" y="27" width="1299" height="741" key="new project wizard" timestamp="1583171875276">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
     <state x="57" y="27" width="1299" height="741" key="new project wizard/57.27.1309.741@57.27.1309.741" timestamp="1583171875276" />
-    <state x="434" y="93" width="921" height="1026" key="search.everywhere.popup" timestamp="1591805265912">
+    <state x="434" y="93" width="921" height="1026" key="search.everywhere.popup" timestamp="1591812404719">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="434" y="93" width="921" height="1026" key="search.everywhere.popup/0.0.1792.1120/192.-1080.1920.1080@0.0.1792.1120" timestamp="1588011895317" />
-    <state x="434" y="93" width="921" height="1026" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1591805265912" />
+    <state x="434" y="93" width="921" height="1026" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1591812404719" />
   </component>
 </project>
