@@ -37,6 +37,12 @@ Podemos sobrescrever métodos específicos. Podemos inclusive chamar a implement
 
 * decorator é um padrão de projeto que ajuda a substituir composição por herança.
 
+#### Sobre construtores
+`this(...)` -> chamar o construtor da classe atual
+`super(...` -> chamar o construtor da classe pai
+O construtor da classe filha vai obrigatoriamente chamar o construtor da classe pai antes de construir o objeto.
+Quando tornamos o construtor explícito na classe filha, devemos chamar o construtor da classe pai em pelo menos um dos construtores.
+
 ### Polimorfismo
 
 #### Estático 
@@ -44,7 +50,7 @@ Podemos sobrescrever métodos específicos. Podemos inclusive chamar a implement
 É escrito de forma estática no código.
 
 #### Dinâmico
-Podemos instanciar um tipo específico e atribuir a um tipo mais genérico, como por exemplo `Carro carro = new Civic()`. O polimorfismo acontece aqui porque a partir do momento que atribuimos a variável `c` que é do tipo `Carro` a um `Civic`, podemos usar a mesma variável `c` a uma `Ferari`, por exemplo (outro tipo mais específico, como o `Civic`).  
+Podemos instanciar um tipo específico e atribuir a um tipo mais genérico, como por exemp lo `Carro carro = new Civic()`. O polimorfismo acontece aqui porque a partir do momento que atribuimos a variável `c` que é do tipo `Carro` a um `Civic`, podemos usar a mesma variável `c` a uma `Ferari`, por exemplo (outro tipo mais específico, como o `Civic`).  
 
 ![](../../imagens/polimorfismo.png)
 
