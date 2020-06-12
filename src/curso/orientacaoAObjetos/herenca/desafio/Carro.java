@@ -1,10 +1,10 @@
 package curso.orientacaoAObjetos.herenca.desafio;
 
 public class Carro {
-    public float velocidadeAtual;
-    public final float velocidadeMaxima;
+    private float velocidadeAtual;
+    private final float velocidadeMaxima;
 
-    Carro(float velocidadeMaxima) {
+    public Carro(float velocidadeMaxima) {
         this.velocidadeMaxima = velocidadeMaxima;
     }
 
@@ -23,4 +23,15 @@ public class Carro {
         }
     }
 
+    public float getVelocidadeAtual() {
+        return velocidadeAtual;
+    }
+
+    public void setVelocidadeAtual(float velocidadeAtual) {
+        this.velocidadeAtual = velocidadeAtual;
+    }
+
+    public float getVelocidadeMaxima() {
+        return velocidadeMaxima;
+    }
 }

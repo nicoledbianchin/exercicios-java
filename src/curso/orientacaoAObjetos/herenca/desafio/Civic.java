@@ -1,7 +1,7 @@
 package curso.orientacaoAObjetos.herenca.desafio;
 
 public class Civic extends Carro {
-    Civic () {
+    public Civic () {
         super(200);
     }
 }

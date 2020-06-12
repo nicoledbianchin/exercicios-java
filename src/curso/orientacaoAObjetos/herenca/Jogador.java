@@ -6,7 +6,7 @@ public class Jogador {
     public int x;
     public int y;
 
-    Jogador() {
+    public Jogador() {
         this(0, 0);
     }
 

@@ -38,8 +38,10 @@ Podemos sobrescrever métodos específicos. Podemos inclusive chamar a implement
 * decorator é um padrão de projeto que ajuda a substituir composição por herança.
 
 #### Sobre construtores
-`this(...)` -> chamar o construtor da classe atual
-`super(...` -> chamar o construtor da classe pai
+`this(...)` - chamar o construtor da classe atual
+
+`super(...)` - chamar o construtor da classe pai
+
 O construtor da classe filha vai obrigatoriamente chamar o construtor da classe pai antes de construir o objeto.
 Quando tornamos o construtor explícito na classe filha, devemos chamar o construtor da classe pai em pelo menos um dos construtores.
 
@@ -57,4 +59,6 @@ Podemos instanciar um tipo específico e atribuir a um tipo mais genérico, como
 > Polimorfismo.
 
 ### Abstração
-Simplificar conceitos do mundo real para o software. Nem todas as classes no software terão um correspondente no mundo real (as vezes construímos conceitos para a organização de software ou pequenas diferenças específicas nos objetos), assim como em tudo no mundo real estará no software. 
+Simplificar conceitos do mundo real para o software. Nem todas as classes no software terão um correspondente no mundo real (as vezes construímos conceitos para a organização de software ou pequenas diferenças específicas nos objetos), assim como em tudo no mundo real estará no software.
+
+ 
