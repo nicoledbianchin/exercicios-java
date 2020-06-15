@@ -20,12 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74d9fa78-67f5-441f-be02-de7bc046c602" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/herenca/desafio/app/Luxo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/abstrato/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/abstrato/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/abstrato/Cachorro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/abstrato/Mamifero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/herenca/desafio/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/herenca/desafio/Carro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/herenca/desafio/Civic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/herenca/desafio/Civic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/herenca/desafio/Ferrari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/herenca/desafio/Ferrari.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/herenca/desafio/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/herenca/desafio/app/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/orientação-a-objetos.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/orientação-a-objetos.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/polimorfismo/Comida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/polimorfismo/Comida.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,20 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Jantar">
+  <component name="RunManager" selected="Application.App (1)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="curso.orientacaoAObjetos.abstrato.App" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="curso.orientacaoAObjetos.abstrato.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="curso.orientacaoAObjetos.herenca.desafio.app.App" />
       <module name="java" />
@@ -101,19 +115,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="curso.orientacaoAObjetos.composicao.carro.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista2.Ex5" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lista2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,19 +165,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.JUnitCore" />
-      <item itemvalue="Application.Ex5" />
       <item itemvalue="Application.CarroTeste" />
       <item itemvalue="Application.Jogo" />
       <item itemvalue="Application.App" />
       <item itemvalue="Application.Jantar" />
+      <item itemvalue="Application.App (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.Jantar" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.Jogo" />
         <item itemvalue="Application.CarroTeste" />
-        <item itemvalue="Application.Ex5" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +225,7 @@
       <workItem from="1586981997103" duration="22000" />
       <workItem from="1588011551353" duration="405000" />
       <workItem from="1591805205430" duration="640000" />
-      <workItem from="1591970956108" duration="9191000" />
+      <workItem from="1591970956108" duration="10832000" />
     </task>
     <servers />
   </component>
@@ -248,11 +249,11 @@
       <screen x="0" y="0" width="1792" height="1041" />
     </state>
     <state x="721" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1041@0.0.1792.1041" timestamp="1586982016092" />
-    <state x="632" y="115" width="374" height="587" key="#com.intellij.ide.util.MemberChooser" timestamp="1592237954189">
+    <state x="632" y="115" width="374" height="587" key="#com.intellij.ide.util.MemberChooser" timestamp="1592239501835">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="632" y="107" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1041@0.0.1792.1041" timestamp="1586973638221" />
-    <state x="632" y="115" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1592237954189" />
+    <state x="632" y="115" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1592239501835" />
     <state x="172" y="453" width="482" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591996150080">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -303,10 +304,10 @@
     <state x="120" y="15" key="SettingsEditor/0.0.1792.1041@0.0.1792.1041" timestamp="1586973308694" />
     <state x="120" y="16" key="SettingsEditor/0.0.1792.1120/192.-1080.1920.1080@0.0.1792.1120" timestamp="1588011569568" />
     <state x="120" y="16" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1591970869614" />
-    <state x="434" y="93" width="921" height="1026" key="search.everywhere.popup" timestamp="1591995724943">
+    <state x="434" y="93" width="921" height="1026" key="search.everywhere.popup" timestamp="1592238378362">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="434" y="93" width="921" height="1026" key="search.everywhere.popup/0.0.1792.1120/192.-1080.1920.1080@0.0.1792.1120" timestamp="1588011895317" />
-    <state x="434" y="93" width="921" height="1026" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1591995724943" />
+    <state x="434" y="93" width="921" height="1026" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1592238378362" />
   </component>
 </project>

@@ -61,4 +61,9 @@ Podemos instanciar um tipo específico e atribuir a um tipo mais genérico, como
 ### Abstração
 Simplificar conceitos do mundo real para o software. Nem todas as classes no software terão um correspondente no mundo real (as vezes construímos conceitos para a organização de software ou pequenas diferenças específicas nos objetos), assim como em tudo no mundo real estará no software.
 
+
+## Classe abstrata
+Na interface, todos os métodos são obrigatoriamente públicos e abstratos (não tem corpo). Tem apenas a definição do método: nome, tipo de retorno e parâmetros a serem passados.
+A classe abstrata podem ter apenas métodos abstratos, apenas métodos implementados, ou os dois. A classe abstrata não pode ser instanciada. São úteis para serem usadas de herança (classe super). 
+
  
