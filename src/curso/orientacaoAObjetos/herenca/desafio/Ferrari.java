@@ -1,7 +1,5 @@
 package curso.orientacaoAObjetos.herenca.desafio;
 
-import curso.orientacaoAObjetos.herenca.desafio.app.Luxo;
-
 public class Ferrari extends Carro implements Esportivo, Luxo {
 
     private boolean ligarTurbo = false;

@@ -20,13 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74d9fa78-67f5-441f-be02-de7bc046c602" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/abstrato/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/abstrato/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/abstrato/Cachorro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/abstrato/Mamifero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/orientação-a-objetos.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/orientação-a-objetos.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/polimorfismo/Comida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/curso/orientacaoAObjetos/polimorfismo/Comida.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +93,7 @@
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="curso.orientacaoAObjetos.herenca.desafio.app.*" />
+          <option name="PATTERN" value="curso.orientacaoAObjetos.herenca.desafio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,7 +219,7 @@
       <workItem from="1586981997103" duration="22000" />
       <workItem from="1588011551353" duration="405000" />
       <workItem from="1591805205430" duration="640000" />
-      <workItem from="1591970956108" duration="10832000" />
+      <workItem from="1591970956108" duration="11524000" />
     </task>
     <servers />
   </component>
@@ -258,25 +252,25 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="172" y="453" width="482" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1792.1120@0.0.1792.1120" timestamp="1591996150080" />
-    <state width="784" height="313" key="GridCell.Tab.0.bottom" timestamp="1591997713645">
+    <state width="1082" height="313" key="GridCell.Tab.0.bottom" timestamp="1592239841597">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="784" height="313" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1591997713645" />
+    <state width="1082" height="313" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1592239841597" />
     <state width="1263" height="411" key="GridCell.Tab.0.bottom/57.27.1309.741@57.27.1309.741" timestamp="1583512804025" />
-    <state width="784" height="313" key="GridCell.Tab.0.center" timestamp="1591997713644">
+    <state width="1082" height="313" key="GridCell.Tab.0.center" timestamp="1592239841596">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="784" height="313" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1591997713644" />
+    <state width="1082" height="313" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1592239841596" />
     <state width="1263" height="411" key="GridCell.Tab.0.center/57.27.1309.741@57.27.1309.741" timestamp="1583512804021" />
-    <state width="784" height="313" key="GridCell.Tab.0.left" timestamp="1591997713643">
+    <state width="1082" height="313" key="GridCell.Tab.0.left" timestamp="1592239841596">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="784" height="313" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1591997713643" />
+    <state width="1082" height="313" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1592239841596" />
     <state width="1263" height="411" key="GridCell.Tab.0.left/57.27.1309.741@57.27.1309.741" timestamp="1583512804018" />
-    <state width="784" height="313" key="GridCell.Tab.0.right" timestamp="1591997713645">
+    <state width="1082" height="313" key="GridCell.Tab.0.right" timestamp="1592239841597">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="784" height="313" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1591997713645" />
+    <state width="1082" height="313" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1592239841597" />
     <state width="1263" height="411" key="GridCell.Tab.0.right/57.27.1309.741@57.27.1309.741" timestamp="1583512804023" />
     <state width="1263" height="197" key="GridCell.Tab.1.bottom" timestamp="1583512740953">
       <screen x="57" y="27" width="1309" height="741" />
@@ -304,10 +298,10 @@
     <state x="120" y="15" key="SettingsEditor/0.0.1792.1041@0.0.1792.1041" timestamp="1586973308694" />
     <state x="120" y="16" key="SettingsEditor/0.0.1792.1120/192.-1080.1920.1080@0.0.1792.1120" timestamp="1588011569568" />
     <state x="120" y="16" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1591970869614" />
-    <state x="434" y="93" width="921" height="1026" key="search.everywhere.popup" timestamp="1592238378362">
+    <state x="434" y="93" width="921" height="1026" key="search.everywhere.popup" timestamp="1592239856217">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="434" y="93" width="921" height="1026" key="search.everywhere.popup/0.0.1792.1120/192.-1080.1920.1080@0.0.1792.1120" timestamp="1588011895317" />
-    <state x="434" y="93" width="921" height="1026" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1592238378362" />
+    <state x="434" y="93" width="921" height="1026" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1592239856217" />
   </component>
 </project>

@@ -10,6 +10,8 @@ public class App {
         Ferrari ferrari = new Ferrari();
         Carro carro = new Carro(100);
 
+        ferrari.nivelDoAr();
+
         ferrari.ligarTurbo();
 
         civic.setVelocidadeAtual(10);

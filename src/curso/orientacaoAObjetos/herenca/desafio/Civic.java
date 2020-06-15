@@ -1,7 +1,5 @@
 package curso.orientacaoAObjetos.herenca.desafio;
 
-import curso.orientacaoAObjetos.herenca.desafio.app.Luxo;
-
 public class Civic extends Carro implements Luxo {
     public Civic () {
         super(200);
