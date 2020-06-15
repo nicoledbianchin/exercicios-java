@@ -1,5 +1,6 @@
 package curso.orientacaoAObjetos.herenca.desafio.app;
 
+import curso.orientacaoAObjetos.herenca.desafio.Carro;
 import curso.orientacaoAObjetos.herenca.desafio.Civic;
 import curso.orientacaoAObjetos.herenca.desafio.Ferrari;
 
@@ -7,6 +8,9 @@ public class App {
     public static void main(String[] args) {
         Civic civic = new Civic();
         Ferrari ferrari = new Ferrari();
+        Carro carro = new Carro(100);
+
+        ferrari.ligarTurbo();
 
         civic.setVelocidadeAtual(10);
         ferrari.setVelocidadeAtual(10);
