@@ -15,3 +15,4 @@
 - Predicate: recebe um parâmetro e retorna um boolean.
 - Consumer: recebe um parâmetro e não retorna nada.
 - Função: recebe um parâmetro e retorna um resultado.
+- Supplier: não recebe parâmetro e retorna alguma coisa.
