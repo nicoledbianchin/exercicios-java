@@ -5,7 +5,6 @@ import java.util.function.Predicate;
 public class Predicado {
     public static void main(String[] args) {
 
-        // recebe um parametro e retorna um boolean
         Predicate<Produto> isCaro =
                 produto -> (produto.preco * (1 - produto.desconto)) >= 750;
 
