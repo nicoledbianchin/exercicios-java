@@ -11,4 +11,8 @@ public class Produto {
         this.preco = preco;
         this.desconto = desconto;
     }
+
+    public String toString() {
+        return nome + " tem preço de " + (preco * (1 - desconto)) + "R$";
+    }
 }
