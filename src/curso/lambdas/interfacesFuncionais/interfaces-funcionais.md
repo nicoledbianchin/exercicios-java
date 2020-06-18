@@ -9,3 +9,9 @@
 ![](../../../imagens/interfaces-tipos-primitivos.png)
 
 > Interfaces de tipos primitivos.
+
+## Tipos:
+
+- Predicate: recebe um parâmetro e retorna um boolean.
+- Consumer: recebe um parâmetro e não retorna nada.
+- Função: recebe um parâmetro e retorna um resultado.
