@@ -16,3 +16,4 @@
 - Consumer: recebe um parâmetro e não retorna nada.
 - Função: recebe um parâmetro e retorna um resultado.
 - Supplier: não recebe parâmetro e retorna alguma coisa.
+- Unary Operator: recebe um parâmetro e retorna alguma coisa do mesmo tipo do parâmetro.
