@@ -15,4 +15,16 @@ public class Produto {
     public String toString() {
         return nome + " tem preço de " + (preco * (1 - desconto)) + "R$";
     }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public double getDesconto() {
+        return desconto;
+    }
 }
