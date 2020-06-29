@@ -1,4 +1,0 @@
-Composição:
-    Uma aplicaçao é composta por classes que se relacionam e dependem entre si, para o funcionamento do produto final. A relação deve ser bem pensada para não termos um serviço muito ligado e difícil de fazer mudançãs e refatoração.
-
-*   toSrting() - retorna o objeto em java em uma string.

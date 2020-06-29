@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74d9fa78-67f5-441f-be02-de7bc046c602" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/curso/lambdas/Calculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/curso/lambdas/CalculoTeste1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/curso/lambdas/CalculoTeste2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/curso/lambdas/Multiplicar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/curso/lambdas/Somar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/curso/streams/CriandoStreams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,26 +75,13 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CalculoTeste2">
+  <component name="RunManager" selected="Application.CriandoStreams">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="curso.orientacaoAObjetos.abstrato.App" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="curso.orientacaoAObjetos.abstrato.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="curso.orientacaoAObjetos.herenca.desafio.app.App" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="curso.orientacaoAObjetos.herenca.desafio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,6 +108,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="curso.lambdas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CriandoStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="curso.streams.CriandoStreams" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="curso.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,19 +158,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.JUnitCore" />
-      <item itemvalue="Application.App" />
       <item itemvalue="Application.Jantar" />
       <item itemvalue="Application.App (1)" />
       <item itemvalue="Application.CalculoTeste1" />
       <item itemvalue="Application.CalculoTeste2" />
+      <item itemvalue="Application.CriandoStreams" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CriandoStreams" />
         <item itemvalue="Application.CalculoTeste2" />
         <item itemvalue="Application.CalculoTeste1" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.Jantar" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -255,42 +251,26 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="172" y="453" width="482" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1792.1120@0.0.1792.1120" timestamp="1591996150080" />
-    <state width="888" height="313" key="GridCell.Tab.0.bottom" timestamp="1592247428656">
+    <state width="914" height="313" key="GridCell.Tab.0.bottom" timestamp="1592942498412">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state width="914" height="313" key="GridCell.Tab.0.bottom/0.0.1792.1120/267.-1080.1920.1080@0.0.1792.1120" timestamp="1592942498412" />
     <state width="888" height="313" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1592247428656" />
-    <state width="1263" height="411" key="GridCell.Tab.0.bottom/57.27.1309.741@57.27.1309.741" timestamp="1583512804025" />
-    <state width="888" height="313" key="GridCell.Tab.0.center" timestamp="1592247428655">
+    <state width="914" height="313" key="GridCell.Tab.0.center" timestamp="1592942498408">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state width="914" height="313" key="GridCell.Tab.0.center/0.0.1792.1120/267.-1080.1920.1080@0.0.1792.1120" timestamp="1592942498408" />
     <state width="888" height="313" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1592247428655" />
-    <state width="1263" height="411" key="GridCell.Tab.0.center/57.27.1309.741@57.27.1309.741" timestamp="1583512804021" />
-    <state width="888" height="313" key="GridCell.Tab.0.left" timestamp="1592247428655">
+    <state width="914" height="313" key="GridCell.Tab.0.left" timestamp="1592942498257">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state width="914" height="313" key="GridCell.Tab.0.left/0.0.1792.1120/267.-1080.1920.1080@0.0.1792.1120" timestamp="1592942498257" />
     <state width="888" height="313" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1592247428655" />
-    <state width="1263" height="411" key="GridCell.Tab.0.left/57.27.1309.741@57.27.1309.741" timestamp="1583512804018" />
-    <state width="888" height="313" key="GridCell.Tab.0.right" timestamp="1592247428656">
+    <state width="914" height="313" key="GridCell.Tab.0.right" timestamp="1592942498412">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state width="914" height="313" key="GridCell.Tab.0.right/0.0.1792.1120/267.-1080.1920.1080@0.0.1792.1120" timestamp="1592942498412" />
     <state width="888" height="313" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1592247428656" />
-    <state width="1263" height="411" key="GridCell.Tab.0.right/57.27.1309.741@57.27.1309.741" timestamp="1583512804023" />
-    <state width="1263" height="197" key="GridCell.Tab.1.bottom" timestamp="1583512740953">
-      <screen x="57" y="27" width="1309" height="741" />
-    </state>
-    <state width="1263" height="197" key="GridCell.Tab.1.bottom/57.27.1309.741@57.27.1309.741" timestamp="1583512740953" />
-    <state width="1263" height="197" key="GridCell.Tab.1.center" timestamp="1583512740953">
-      <screen x="57" y="27" width="1309" height="741" />
-    </state>
-    <state width="1263" height="197" key="GridCell.Tab.1.center/57.27.1309.741@57.27.1309.741" timestamp="1583512740953" />
-    <state width="1263" height="197" key="GridCell.Tab.1.left" timestamp="1583512740953">
-      <screen x="57" y="27" width="1309" height="741" />
-    </state>
-    <state width="1263" height="197" key="GridCell.Tab.1.left/57.27.1309.741@57.27.1309.741" timestamp="1583512740953" />
-    <state width="1263" height="197" key="GridCell.Tab.1.right" timestamp="1583512740953">
-      <screen x="57" y="27" width="1309" height="741" />
-    </state>
-    <state width="1263" height="197" key="GridCell.Tab.1.right/57.27.1309.741@57.27.1309.741" timestamp="1583512740953" />
     <state x="511" y="180" key="NewModule_or_Project.wizard" timestamp="1588012540752">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
