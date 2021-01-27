@@ -8,32 +8,22 @@ import java.util.stream.Stream;
 public class ImprimindoObjetos {
     public static void main(String[] args) {
 
-        List<String> aprovados = Arrays.asList("Ana", "Lu", "Bia", "Maria");
+        List<String> aprovados = Arrays.asList("Aluno1", "Aluno2", "Aluno3");
 
-        System.out.println("\nFor:");
-        for (int i = 0; i < aprovados.size(); i++) {
-            System.out.println(aprovados.get(i));
-        }
-
-        System.out.println("\nForeach:");
-        for (String nome : aprovados) {
+        System.out.println("Usando foreach");
+        for(String nome : aprovados){
             System.out.println(nome);
         }
 
-        System.out.println("\nIterator:");
+        System.out.println("\nUsando iterador");
         Iterator<String> iterator = aprovados.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
 
-
-        // Stream: sequencia de dados
-        System.out.println("\n////");
-        System.out.println("Stream:");
+        System.out.println("\nUsando stream");
         Stream<String> stream = aprovados.stream();
         stream.forEach(System.out::println);
-
-
 
     }
 }
